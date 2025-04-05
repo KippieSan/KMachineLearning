@@ -1,6 +1,7 @@
 # ライブラリは共有ライブラリであり、以下のcppファイルによって生成される
 add_library(ml_libraries SHARED 
     softmax.cpp
+    cross_entropy.cpp
 )
 
 # ライブラリのインクルードディレクトリを指定する
